@@ -1,22 +1,31 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.88.1">
-  <link rel="icon" href="assets/css/images/papillon.ico" />
-  <title>Album example · Bootstrap v5.1</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Album example · Bootstrap v5.1</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
 
 
-
-  <!-- Bootstrap core CSS -->
-  <link href="bootstrap/assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
+    <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -30,31 +39,78 @@
           font-size: 3.5rem;
         }
       }
+      
+      
+      
+      
+      
     </style>
+      <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
 
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
 
-</head>
-<body>
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
 
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+
+    
+  </head>
+  <body>
+    
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+          <p class="text-muted">Sortie Hors-pistes ski & snowboard</p>
         </div>
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Contact</h4>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+           
+            <nav>
+				<ul>
+				                  <li>  <p class="copyright"><a href="mailto:meteniermyriam@yahoo.fr">Email</a></p></li>
+					<!--<li><a href="#elements">Elements</a></li>-->
+				</ul>
+			</nav>
           </ul>
         </div>
       </div>
     </div>
   </div>
+  <!-- Menu -->
   <div class="navbar navbar-dark bg-dark shadow-sm">
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
@@ -73,11 +129,33 @@
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Album example</h1>
-        <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <h1 class="fw-light">Album ski & snowboard</h1>
+        <p class="lead text-muted">Hors-pistes</p>
+        
+         <swiper-container class="mySwiper" rewind="true" navigation="true">
+    <swiper-slide><img src="./images/ski/ski1.JPG"></swiper-slide>
+    <swiper-slide><img src="./images/ski/ski4.JPG"></swiper-slide>
+    <swiper-slide><img src="./images/ski/ski6.JPG"></swiper-slide>
+   
+    
+    <swiper-slide><img src="./images/ski/ski8B.JPG"></swiper-slide>
+     <swiper-slide><img src="./images/ski/ski7.JPG"></swiper-slide>
+     
+    <swiper-slide><img src="./images/ski/ski9.JPG"></swiper-slide>
+    <swiper-slide><img src="./images/ski/ski10.JPG"></swiper-slide>
+    <swiper-slide><img src="./images/ski/ski11.JPG"></swiper-slide>
+    <swiper-slide><img src="./images/ski/ski12.JPG"></swiper-slide>
+        <swiper-slide><img src="./images/ski/ski13.JPG"></swiper-slide>
+            <swiper-slide><img src="./images/ski/ski14.JPG"></swiper-slide>
+                <swiper-slide><img src="./images/ski/ski15.JPG"></swiper-slide>
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        
+        
         <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+         <a href="ski.html" class="btn btn-primary my-2">Ski&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       </a> 
+          <a href="#" class="btn btn-secondary my-2">Snowboard</a>
         </p>
       </div>
     </div>
@@ -245,13 +323,13 @@
       <a href="#">Back to top</a>
     </p>
     <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="../getting-started/introduction/">getting started guide</a>.</p>
+    <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.1/getting-started/introduction/">getting started guide</a>.</p>
   </div>
 </footer>
 
 
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js" ></script>
 
-
-</body>
+      
+  </body>
 </html>
