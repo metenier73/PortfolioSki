@@ -26,6 +26,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  
 }
 #mainHeader {
   display: grid;
@@ -33,12 +34,12 @@ img {
   align-items: start;
   background-color: var(--red);
   height: 40px;
-  width: 100%;
+  width: auto;
   position: fixed;
   top: 0;
 }
 #logoImg {
-  padding: 5px;
+  padding: 1px;
   position: relative;
   z-index: 1000;
 }
@@ -47,7 +48,7 @@ img {
   background-color: var(--red);
   width: 100%;
   top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   display: none;
 }
 #mainNav ul {
@@ -73,8 +74,8 @@ img {
   background-color: transparent;
   border: none;
   background-size: cover;
-  width: 40px;
-  height: 40px;
+  width: auto;
+  height: auto;
   align-self: start;
   margin-left: auto;
 }
