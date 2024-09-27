@@ -627,7 +627,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: auto;
 		}
 
 		.icon > .label {
@@ -1307,11 +1307,11 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 4.6rem;
+			height: 4.6rem;
+			line-height: 5rem;
 			border: solid 1px #ffffff;
-			border-radius: 100%;
+			border-radius: 10%;
 			background-image: url("./images/Logo.png");
 			
 		}
