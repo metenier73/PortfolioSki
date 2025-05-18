@@ -1,0 +1,83 @@
+.clouds {
+    background-image: url(https://pixabay.com/images/id-5694354/)
+}
+.rain {
+    background-image: url(https://pixabay.com/images/id-455120/)
+}
+.snow {
+    background-image: url(https://wildtextures.com/wp-content/uploads/2011/09/snow-sample.jpg)
+}
+/*
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  background-position: center;
+  background-size: cover;
+}
+*/
+/*h1 {
+  font-size: 3rem;
+  position: relative;
+}
+*/
+i.wi {
+  font-size: 4em;
+  line-height: 3rem;
+  display: inline;
+  padding: 170px;
+
+}
+/*
+h2 {
+  font-size: 1em;
+
+}
+*/
+.tooltip {
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: #fff;
+  background-color: #222;
+  border-radius: 5px;
+  padding: 10 px;
+  font-size: 12px;
+  transition: opacity 0.3s, top 0.5s;
+}
+/*
+h1:hover .tooltip {
+  top: -50px;
+  opacity: 1;
+}
+*/
+#app {
+    display: flex-block;
+    width: 350px;
+    height: 350px;
+    flex-vrap: wrap;
+     background-color: rgba(43,128,185, 0.75);
+     font-size: 10px;
+     padding: 10px 10px 10px 10px;
+}
+
+#ville {
+
+
+}
+
+#temperature {
+
+
+}
+
+
+#pressure {
+
+}

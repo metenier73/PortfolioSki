@@ -1,0 +1,33 @@
+[
+    {
+        "filename":"image-2.jpg",
+        "name":"Mont-Pourri",
+        "author":"Myriam Metenier",
+        "exposure":"Nord"
+        
+    },
+    {
+        "filename":"image-3.jpg",
+        "name":"Aiguille Rouge",
+        "author":"Myriam Metenier",
+        "exposure":"Nord"
+    },
+    {
+        "filename":"image-5.jpg","name":"Aiguille Rousse","author":"Myriam Metenier","exposure":"Sud-Est"
+    },
+    {
+        "filename":"bellecoteRoseland.jpg","name":"Vallée Roseland","author":"Myriam Metenier","exposure":"Est"
+    },
+    {
+      "filename":"DSC_0017.jpg","name":"Aiguille Rouge","author":"Myriam Metenier","exposure":"Nord"},
+    {"filename":"ars2009.JPG","name":"Les Arcs 2000","author":"Myriam Metenier","exposure":"Nord-Est"},
+    {"filename":"arc2009.JPG","name":"Arcs 2000","author":"Myriam Metenier","exposure":"Est"},
+    {"filename":"belleco2010-04-17.jpg","author":"Myriam Metenier","name":"Aiguille Rousse","exposure":"Sud"},
+    {"filename":"belle2010-04-17.JPG","name":"Bellecôte","author":"Myriam Metenier","exposure":"Nord"},
+    {"filename":"belleote2010-04-17.jpg","name":"Bellecôte","author":"Myriam Metenier","exposure":"Nord"},
+    {"filename":"image-1.jpg","name":"Aiguille Rousse","author":"Myriam Metenier","exposure":"Sud"},
+    {"filename":"Roseland2010-04-17.JPG","name":"Vallée de Roseland","author":"Myriam Metenier","exposure":"Est"},
+    {"filename":"bellecote2010-04-17.JPG","name":"Bellecôte","author":"Myriam Metenier","exposure":"Nord"},
+    {"filename":"bellec2010-04-17.JPG","name":"Peisey-Vallandry","author":"Myriam Metenier","exposure":"Nord"},
+    {"filename":"image-4.jpg","name":"Arcs 2000 - Villaroger","author":"Myriam Metenier","exposure":"Nord"}
+];
