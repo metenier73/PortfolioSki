@@ -57,11 +57,3 @@ C’est un excellent exercice pour comprendre la composition de pages, l’anima
 
 Ce projet est sous licence **CC0** *(Creative Commons Zéro)* — vous pouvez le copier, le modifier et l’utiliser librement.  
 Plus d’infos : [html5up.net/license](https://html5up.net/license)
-
----
-
-Tu veux que je t’aide à :
-
-- Ajouter une section *Installation* ?
-- Mettre en ligne une démo avec Vercel/Netlify ?
-- Générer un `index.html` adapté avec Bootstrap et ton contenu ?
