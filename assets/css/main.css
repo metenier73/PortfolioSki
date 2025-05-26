@@ -53,7 +53,13 @@ table {
 }
 
 body {
-	-webkit-text-size-adjust: none;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  line-height: 1.65;
+  -webkit-text-size-adjust: none;
 }
 
 mark {
@@ -141,11 +147,13 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
-		font-weight: 300;
-		font-size: 1rem;
-		line-height: 1.65;
+	background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  line-height: 1.65;
+  -webkit-text-size-adjust: none;
 	}
 
 	a {
@@ -180,11 +188,10 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #eee;
-		font-weight: 600;
-		line-height: 0.5;
-		margin: 0 0 1rem 0;
-		text-transform: uppercase;
-		letter-spacing: 0.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1307,10 +1314,10 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 15rem;
-			height:15rem;
+			width: 20rem;
+			height:20rem;
 			line-height: 1rem;
-			border: solid 13px #ffffff;
+			border: solid 10px #ffffff;
 			border-radius: 100%;
 			background-image: url("./images/logoMM.png");
 			
