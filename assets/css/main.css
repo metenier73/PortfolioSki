@@ -1307,12 +1307,12 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 4.75rem;
-			height:4.75rem;
-			line-height: 0.5rem;
+			width: 15rem;
+			height:15rem;
+			line-height: 1rem;
 			border: solid 13px #ffffff;
 			border-radius: 100%;
-			background-image: url("./images/Logo.png");
+			background-image: url("./images/logo-removebg-preview.png");
 			
 		}
 
