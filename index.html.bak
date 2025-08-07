@@ -162,6 +162,7 @@
 
 
 				</div>
+				<hr class="featurette-divider">
 				<!-- <script>
 					$(function () {
 						$('.button').click(function () {
@@ -197,7 +198,8 @@
 				</div>
 
 				
-
+				<hr class="featurette-divider">
+				
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 				<script>
 					$(function () {
@@ -416,7 +418,7 @@
 									onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard </a>
 					</ol>
 					<ol><a href="https://ski-booking-rendezvous.lovable.app/" title="Site monitrice de ski et SnowBoard"
-									onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr/En</a>
+									onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En</a>
 					</ol>
 					
 					
