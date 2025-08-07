@@ -315,11 +315,10 @@
 									</a>
 								</li>
 							</ul>
-						</main>
-					</section>
+					
 
 
-
+					
 
 					<hr class="featurette-divider">
 
@@ -349,6 +348,8 @@
 
 						</div>
 					</div>
+						</main>
+					</section>
 
 					<hr class="featurette-divider">
 
@@ -406,7 +407,7 @@
 
 
 				<div class="panel panel-default col-lg-12">
-					<h6 class="major">Site & Application Montagne </h6>
+					<h6 class="major">Site Monitrice Ski & SnowBoard </h6>
 					<ol> <a href="https://meteniermyriam.wixsite.com/snowride73" title="Portfolio esf"
 							onclick="window.open(this.href);return false">Visiter mon site RideSnow</a>
 					</ol>
