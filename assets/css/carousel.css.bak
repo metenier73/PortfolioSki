@@ -172,7 +172,6 @@ background-image: 'url(./images/${randomImage.filename})';
   height: 300px;
   background-size:cover;
   background-position:center;
-  border-radius:5px;
 }
 /* 
 .slick-slider { 

@@ -126,7 +126,7 @@
 
 				<div id="myCarousel" data-carousel class="carousel slide " data-bs-ride="carousel">
 
-					<div class="carousel-inner ">
+					<div class="carousel-inner">
 						<div class="carousel-item fade active">
 							<div id="pictInfo">
 								<h1>Montagne </h1>
@@ -547,8 +547,6 @@
 
 </body>
 
-<<<<<<< HEAD
+
 </html>
-=======
-</html>
->>>>>>> 3141e3ae2af04a04e841d9ab3449ce49bbf54032
+
