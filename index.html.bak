@@ -386,7 +386,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="panel panel-default col-lg-12"></n>
+				<div class="panel panel-default col-lg-12"></br>
 				
 				
 
@@ -448,18 +448,18 @@
 							
 					
 					<ol><a href="https://soloist.ai/monitricedeskisnowboard" title="Site monitrice de ski et SnowBoard"
-									onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard </a>
+							onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard </a>
 					</ol>
 					<ol><a href="https://ski-booking-rendezvous.lovable.app/" title="Site monitrice de ski et SnowBoard"
-									onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En</a>
+							onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En</a>
 					</ol>
 					<ol><a href="https://metenier73.github.io/ski-snowboard-tignes-valdisere/" title="Site monitrice de ski et SnowBoard"
-									onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En </a>
+							onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En </a>
 					</ol>
 					
 					<h6 class="major">Application Montagne à Télécharger</h6>
 					<ol><a href="https://drive.google.com/file/d/1sTcMM2z91UTYmvBOm-A3sDM_1PTtcktk/view?usp=sharing" title="Tronc commun montagne 'Application Windows' "
-									onclick="window.open(this.href);return false">Tronc Commun : Culture Montagnarde</a>
+							onclick="window.open(this.href);return false">Tronc Commun : Culture Montagnarde</a>
 					</ol>
 					
 						
