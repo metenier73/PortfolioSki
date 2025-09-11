@@ -1,19 +1,33 @@
 {
-  "name": "mon-entreprise-exemple-1",
+  "name": "portfolio-ski",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio d'une monitrice de ski professionnelle",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "optimize-images": "node optimize-images.js",
+    "lint:css": "stylelint '**/*.css' --fix"
   },
   "dependencies": {
     "modele-social": "latest",
     "publicodes": "latest"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+    "@babel/core": "^7.22.11",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^7.0.0",
+    "parcel-bundler": "^1.12.5",
+    "sharp": "^0.32.6",
+    "stylelint": "^15.10.3",
+    "stylelint-config-standard": "^34.0.0"
   },
-  "keywords": []
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
 }

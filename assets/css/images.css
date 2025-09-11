@@ -1,0 +1,263 @@
+/* Styles pour les images optimisées */
+
+/* Image de base */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--medium-gray);
+  background-color: var(--lighter-gray);
+}
+
+/* État de chargement */
+img:not([src]) {
+  opacity: 0;
+}
+
+img.loaded {
+  opacity: 1;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animation de fondu à l'apparition */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Conteneur d'image avec ratio d'aspect */
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--lighter-gray);
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Styles spécifiques pour les images de fond */
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+/* Styles pour les images dans les cartes */
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius-md) var(--border-radius-md) 0 0;
+}
+
+/* Styles pour les miniatures */
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+/* Styles pour les images responsives */
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* Styles pour les images avec légende */
+.figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.figure img {
+  margin-bottom: 0.5rem;
+}
+
+.figcaption {
+  font-size: 0.9rem;
+  color: var(--medium-gray);
+  font-style: italic;
+}
+
+/* Styles pour les images en pleine largeur */
+.full-width-image {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styles pour les images avec effet de zoom au survol */
+.zoom-on-hover {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.zoom-on-hover img {
+  transition: transform 0.5s ease;
+}
+
+.zoom-on-hover:hover img {
+  transform: scale(1.05);
+}
+
+/* Styles pour les images en mode galerie */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* Styles pour les images avec filtre de couleur */
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.grayscale:hover {
+  filter: grayscale(0%);
+}
+
+/* Styles pour les images avec texte superposé */
+.image-with-text {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-with-text img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  color: white;
+  padding: 2rem 1rem 1rem;
+  margin: 0;
+}
+
+/* Styles pour les images avec bordure */
+.bordered-image {
+  border: 1px solid var(--light-gray);
+  padding: 0.5rem;
+  border-radius: var(--border-radius-md);
+  background-color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Styles pour les images en mode diaporama */
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styles pour les images avec effet de parallaxe */
+.parallax-image {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .gallery-item img {
+    height: 200px;
+  }
+  
+  .parallax-image {
+    background-attachment: scroll;
+    min-height: 300px;
+  }
+}
+
+/* Styles pour le mode sombre */
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(0.9) contrast(1.1);
+  }
+  
+  .bordered-image {
+    border-color: var(--darker-gray);
+    background-color: var(--dark-color);
+  }
+}
