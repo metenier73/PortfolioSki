@@ -3,11 +3,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="edge">
-	<meta name="description" content="Portfolio SKI & SnowBoard">
-	<meta name="author" content="Metenier Myriam, Developpement front-end">
-	<link rel="icon" href="assets/css/images/papillon.ico" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Enseignement Ski & Snowboard</title>
+	<!-- Primary Meta Tags -->
+	<meta name="description" content="Monitrice de ski diplômée, je propose des cours particuliers et collectifs de ski alpin et snowboard pour tous niveaux dans les Alpes.">
+	<meta name="keywords" content="monitrice de ski, cours de ski, snowboard, cours particuliers, Alpes, station de ski, école de ski, leçons de ski, moniteur ESF, ski alpin, cours enfants">
+	<meta name="author" content="Myriam Metenier">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://votredomaine.com/" />
+
+	<!-- Favicon -->
+	<link rel="icon" href="assets/css/images/papillon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<meta name="theme-color" content="#3498db">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://votredomaine.com/">
+	<meta property="og:title" content="Myriam Metenier | Monitrice de Ski & Snowboard Professionnelle">
+	<meta property="og:description" content="Monitrice de ski diplômée, je propose des cours particuliers et collectifs de ski alpin et snowboard pour tous niveaux dans les Alpes.">
+	<meta property="og:image" content="https://votredomaine.com/images/og-image.jpg">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://votredomaine.com/">
+	<meta property="twitter:title" content="Myriam Metenier | Monitrice de Ski & Snowboard Professionnelle">
+	<meta property="twitter:description" content="Monitrice de ski diplômée, je propose des cours particuliers et collectifs de ski alpin et snowboard pour tous niveaux dans les Alpes.">
+	<meta property="twitter:image" content="https://votredomaine.com/images/og-image.jpg">
+
+	<title>Myriam Metenier | Monitrice de Ski & Snowboard Professionnelle | Alpes</title>
 
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="./assets/css/carousel.css" />
@@ -387,93 +409,79 @@
 					</div>
 				</div>
 				<div class="panel panel-default col-lg-12"></br>
-				
-				
-
-<h5 class="major">Soft Skills</h5>
-<!-- <span class="image main"><img src="images/imageTroncCommunMontagne/flore/amaniteTueMouche.jpg" alt="" /></span> -->
-<ul>
-  <li><strong>Enseignement personnalisé :</strong> J’adapte mes méthodes pédagogiques aux besoins individuels de chaque élève, qu’ils soient débutants, intermédiaires ou avancés, afin de leur permettre une progression optimale.</li>
-  <li><strong>Sécurité :</strong> Consciencieuse, je me forme régulièrement aux bonnes pratiques pour prévenir les accidents et garantir un environnement sécurisé.</li>
-  <li><strong>Communication :</strong> Je crée un climat de confiance et de convivialité, indispensable pour que les élèves se sentent à l’aise et progressent efficacement.</li>
-  <li><strong>Organisation :</strong> J’ai l’habitude de planifier et de coordonner des cours, stages intensifs et événements spéciaux, tout en optimisant la gestion du temps et des ressources.</li>
-  <li><strong>Innovation pédagogique :</strong> Je suis constamment à la recherche de nouvelles approches et d’outils pour rendre mes cours plus interactifs et engageants.</li>
-</ul>
-
-
-
-<h5 class="major">Hard Skills</h5>
-<ul>
-  <li><strong>Vérification du matériel :</strong> Je m’assure que l’équipement est adapté à la pratique encadrée, en fonction de la progression et de l’activité de montagne concernée.</li>
-  <li><strong>Analyse nivologique et météorologique :</strong> Je maîtrise les spécificités météo et nivologiques liées aux sports de montagne, sur tous types de terrains et pour tous les publics.</li>
-  <li><strong>Démonstration technique :</strong> Je suis capable de démontrer les gestes techniques du ski alpin et de ses disciplines associées à tous les niveaux de pratique.</li>
-  <li><strong>Conception et encadrement :</strong> Je conçois, conduis et évalue des séances d’initiation, d’enseignement ou d’entraînement en respectant la réglementation et le projet pédagogique.</li>
-  <li><strong>Innovation pédagogique :</strong> Je mets en œuvre des parcours et outils pédagogiques adaptés à la diversité des publics accueillis.</li>
-</ul>
 
 				<h5 class="major">Soft Skills</h5>
 				<!-- <span class="image main"><img src="images/imageTroncCommunMontagne/flore/amaniteTueMouche.jpg" alt="" /></span> -->
-			<ul>
-				<li><strong>Enseignement personnalisé :</strong> J’adapte mes méthodes pédagogiques aux besoins individuels de chaque élève, qu’ils soient débutants, intermédiaires ou avancés, afin de leur permettre une progression optimale.</li>
-				<li><strong>Sécurité :</strong> Consciencieuse, je me forme régulièrement aux bonnes pratiques pour prévenir les accidents et garantir un environnement sécurisé.</li>
-				<li><strong>Communication :</strong> Je crée un climat de confiance et de convivialité, indispensable pour que les élèves se sentent à l’aise et progressent efficacement.</li>
-				<li><strong>Organisation :</strong> J’ai l’habitude de planifier et de coordonner des cours, stages intensifs et événements spéciaux, tout en optimisant la gestion du temps et des ressources.</li>
-				<li><strong>Innovation pédagogique :</strong> Je suis constamment à la recherche de nouvelles approches et d’outils pour rendre mes cours plus interactifs et engageants.</li>
-			</ul>
-
-			<br>
-
-			<h5 class="major">Hard Skills</h5>
-			<ul>
-				<li><strong>Vérification du matériel :</strong> Je m’assure que l’équipement est adapté à la pratique encadrée, en fonction de la progression et de l’activité de montagne concernée.</li>
-				<li><strong>Analyse nivologique et météorologique :</strong> Je maîtrise les spécificités météo et nivologiques liées aux sports de montagne, sur tous types de terrains et pour tous les publics.</li>
-				<li><strong>Démonstration technique :</strong> Je suis capable de démontrer les gestes techniques du ski alpin et de ses disciplines associées à tous les niveaux de pratique.</li>
-				<li><strong>Conception et encadrement :</strong> Je conçois, conduis et évalue des séances d’initiation, d’enseignement ou d’entraînement en respectant la réglementation et le projet pédagogique.</li>
-				<li><strong>Innovation pédagogique :</strong> Je mets en œuvre des parcours et outils pédagogiques adaptés à la diversité des publics accueillis.</li>
-			</ul>
+				<ul>
+					<li><strong>Enseignement personnalisé :</strong> J’adapte mes méthodes pédagogiques aux besoins individuels de chaque élève, qu’ils soient débutants, intermédiaires ou avancés, afin de leur permettre une progression optimale.</li>
+					<li><strong>Sécurité :</strong> Consciencieuse, je me forme régulièrement aux bonnes pratiques pour prévenir les accidents et garantir un environnement sécurisé.</li>
+					<li><strong>Communication :</strong> Je crée un climat de confiance et de convivialité, indispensable pour que les élèves se sentent à l’aise et progressent efficacement.</li>
+					<li><strong>Organisation :</strong> J’ai l’habitude de planifier et de coordonner des cours, stages intensifs et événements spéciaux, tout en optimisant la gestion du temps et des ressources.</li>
+					<li><strong>Innovation pédagogique :</strong> Je suis constamment à la recherche de nouvelles approches et d’outils pour rendre mes cours plus interactifs et engageants.</li>
+				</ul>
 
 
-				
-				
-				
+
+				<h5 class="major">Hard Skills</h5>
+				<ul>
+					<li><strong>Vérification du matériel :</strong> Je m’assure que l’équipement est adapté à la pratique encadrée, en fonction de la progression et de l’activité de montagne concernée.</li>
+					<li><strong>Analyse nivologique et météorologique :</strong> Je maîtrise les spécificités météo et nivologiques liées aux sports de montagne, sur tous types de terrains et pour tous les publics.</li>
+					<li><strong>Démonstration technique :</strong> Je suis capable de démontrer les gestes techniques du ski alpin et de ses disciplines associées à tous les niveaux de pratique.</li>
+					<li><strong>Conception et encadrement :</strong> Je conçois, conduis et évalue des séances d’initiation, d’enseignement ou d’entraînement en respectant la réglementation et le projet pédagogique.</li>
+					<li><strong>Innovation pédagogique :</strong> Je mets en œuvre des parcours et outils pédagogiques adaptés à la diversité des publics accueillis.</li>
+				</ul>
+
+				<h5 class="major">Soft Skills</h5>
+				<!-- <span class="image main"><img src="images/imageTroncCommunMontagne/flore/amaniteTueMouche.jpg" alt="" /></span> -->
+				<ul>
+					<li><strong>Enseignement personnalisé :</strong> J’adapte mes méthodes pédagogiques aux besoins individuels de chaque élève, qu’ils soient débutants, intermédiaires ou avancés, afin de leur permettre une progression optimale.</li>
+					<li><strong>Sécurité :</strong> Consciencieuse, je me forme régulièrement aux bonnes pratiques pour prévenir les accidents et garantir un environnement sécurisé.</li>
+					<li><strong>Communication :</strong> Je crée un climat de confiance et de convivialité, indispensable pour que les élèves se sentent à l’aise et progressent efficacement.</li>
+					<li><strong>Organisation :</strong> J’ai l’habitude de planifier et de coordonner des cours, stages intensifs et événements spéciaux, tout en optimisant la gestion du temps et des ressources.</li>
+					<li><strong>Innovation pédagogique :</strong> Je suis constamment à la recherche de nouvelles approches et d’outils pour rendre mes cours plus interactifs et engageants.</li>
+				</ul>
+
+				<br>
+
+				<h5 class="major">Hard Skills</h5>
+				<ul>
+					<li><strong>Vérification du matériel :</strong> Je m’assure que l’équipement est adapté à la pratique encadrée, en fonction de la progression et de l’activité de montagne concernée.</li>
+					<li><strong>Analyse nivologique et météorologique :</strong> Je maîtrise les spécificités météo et nivologiques liées aux sports de montagne, sur tous types de terrains et pour tous les publics.</li>
+					<li><strong>Démonstration technique :</strong> Je suis capable de démontrer les gestes techniques du ski alpin et de ses disciplines associées à tous les niveaux de pratique.</li>
+					<li><strong>Conception et encadrement :</strong> Je conçois, conduis et évalue des séances d’initiation, d’enseignement ou d’entraînement en respectant la réglementation et le projet pédagogique.</li>
+					<li><strong>Innovation pédagogique :</strong> Je mets en œuvre des parcours et outils pédagogiques adaptés à la diversité des publics accueillis.</li>
+				</ul>
 					
 				</div>
 
 
 				<div class="panel panel-default col-lg-12">
 					<h6 class="major">Site Monitrice Ski & SnowBoard </h6>
-					<ol> <a href="https://meteniermyriam.wixsite.com/snowride73" title="Portfolio esf"
-							onclick="window.open(this.href);return false">RideSnow</a>
-					</ol>
-							
-					
-					<ol><a href="https://soloist.ai/monitricedeskisnowboard" title="Site monitrice de ski et SnowBoard"
-							onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard </a>
-					</ol>
-					<ol><a href="https://ski-booking-rendezvous.lovable.app/" title="Site monitrice de ski et SnowBoard"
-							onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En</a>
-					</ol>
-					<ol><a href="https://metenier73.github.io/ski-snowboard-tignes-valdisere/" title="Site monitrice de ski et SnowBoard"
-							onclick="window.open(this.href);return false">Monitrice de ski & SnowBoard : Fr / En </a>
-					</ol>
+					<ul>
+					<li> <a href="https://meteniermyriam.wixsite.com/snowride73" title="Portfolio esf"
+							onclick="window.open(this.href);return false">🎿 RideSnow</a>
+					</li>	
+					<li><a href="https://soloist.ai/monitricedeskisnowboard" title="Site monitrice de ski et SnowBoard"
+							onclick="window.open(this.href);return false">⛷️ Monitrice de ski & SnowBoard </a>
+					</li>
+					<li><a href="https://ski-booking-rendezvous.lovable.app/" title="Site monitrice de ski et SnowBoard"
+							onclick="window.open(this.href);return false">🎿 Monitrice de ski & SnowBoard : Fr / En</a>
+					</li>
+					<li><a href="https://metenier73.github.io/ski-snowboard-tignes-valdisere/" title="Site monitrice de ski et SnowBoard"
+							onclick="window.open(this.href);return false"> 🏂 Monitrice de ski & SnowBoard : Fr / En </a>
+					</li>
+					</ul>
+					</br>
 					
 					<h6 class="major">Application Montagne à Télécharger</h6>
-					<ol><a href="https://drive.google.com/file/d/1sTcMM2z91UTYmvBOm-A3sDM_1PTtcktk/view?usp=sharing" title="Tronc commun montagne 'Application Windows' "
-							onclick="window.open(this.href);return false">Tronc Commun : Culture Montagnarde</a>
-					</ol>
+					<ul>
+					<li><a href="https://drive.google.com/file/d/1sTcMM2z91UTYmvBOm-A3sDM_1PTtcktk/view?usp=sharing" title="Tronc commun montagne 'Application Windows' "
+							onclick="window.open(this.href);return false">🌺 ⛰️ Tronc Commun : Culture Montagnarde</a>
+					</li>
+					</ul>
 					
-						
-
-
-
-
-						
-			<!--		<ol><a href="AppliTroncCommunMontagne/AppliTroncCommunMontagne.zip" title="Application sûr le tronc commun Montagne">Télécharger mon Application Tronc Commun Montagne pour Windows</a></ol>
--->
-				
-				
-				
-				
+				<!--		<ol><a href="AppliTroncCommunMontagne/AppliTroncCommunMontagne.zip" title="Application sûr le tronc commun Montagne">Télécharger mon Application Tronc Commun Montagne pour Windows</a></ol>
+				-->
 				</div>
 
 			</article>
@@ -549,13 +557,5 @@
 
 
 
-	<script src="https://code.jquery.com/jquery-3.5.1.js"
-		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.js"
-		integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
 </body>
-
-
 </html>
-
